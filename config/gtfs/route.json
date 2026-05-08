@@ -10,6 +10,10 @@
             "regex": " - via ",
             "ignore_case": true,
             "replacement": " via "
+        },
+        {
+            "regex": " local$",
+            "ignore_case": true
         }
     ],
     "stop_name_cleaners": []
