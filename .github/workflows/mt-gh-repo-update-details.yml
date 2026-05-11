@@ -14,7 +14,6 @@ on:
       - 'config/agency_location'
       - 'config/agency_type'
   workflow_dispatch: # manual
-  pull_request: # DEBUG
 # gh workflow run mt-gh-repo-update-details.yml --ref $(git rev-parse --abbrev-ref HEAD)
 # gh run list --workflow=mt-gh-repo-update-details.yml
 # gh run watch
